@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+
+}   
+
+button{
+    font-size: 3.4rem;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 5px solid ;
+    background-color: grey;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.choices{
+    margin-bottom: 30px;
+}
+
+button:hover{
+    background-color: rgb(201, 196, 196);
+}
+
+#textHere{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#ResultDisplay{
+    font-size: 5rem;
+    margin-top: 20px;
+}
+
+.scoreDisplay{
+    font-size: 2rem;
+    
+}
+
+.greenText, #playerScoreDisplay{
+    color: green;
+}
+/* remember to add , or it wont work */
+.redText ,#computerScoreDisplay{
+    color: red;
+}
